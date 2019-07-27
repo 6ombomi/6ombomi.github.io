@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio</title>
-    <description>Eunji Jeong - a Product Designer's Portfolio
+    <title>Bomi's Portfolio</title>
+    <description>Bomi Lee - a UI/UX Designer's Portfolio
 </description>
-    <link>https://eungggggg.github.io</link>
-    <atom:link href="https://eungggggg.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 27 Jul 2019 11:18:20 +0900</pubDate>
-    <lastBuildDate>Sat, 27 Jul 2019 11:18:20 +0900</lastBuildDate>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 27 Jul 2019 12:07:44 +0900</pubDate>
+    <lastBuildDate>Sat, 27 Jul 2019 12:07:44 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -32,8 +32,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 
 </description>
         <pubDate>Fri, 26 Jul 2019 00:00:00 +0900</pubDate>
-        <link>https://eungggggg.github.io/2019/07/26/pinspot/</link>
-        <guid isPermaLink="true">https://eungggggg.github.io/2019/07/26/pinspot/</guid>
+        <link>http://localhost:4000/2019/07/26/pinspot/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/26/pinspot/</guid>
         
         <category>Squid</category>
         
@@ -64,8 +64,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 
 </description>
         <pubDate>Fri, 26 Jul 2019 00:00:00 +0900</pubDate>
-        <link>https://eungggggg.github.io/2019/07/26/halo/</link>
-        <guid isPermaLink="true">https://eungggggg.github.io/2019/07/26/halo/</guid>
+        <link>http://localhost:4000/2019/07/26/halo/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/26/halo/</guid>
         
         <category>Squid</category>
         
@@ -96,8 +96,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 
 </description>
         <pubDate>Fri, 26 Jul 2019 00:00:00 +0900</pubDate>
-        <link>https://eungggggg.github.io/2019/07/26/animation/</link>
-        <guid isPermaLink="true">https://eungggggg.github.io/2019/07/26/animation/</guid>
+        <link>http://localhost:4000/2019/07/26/animation/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/26/animation/</guid>
         
         <category>Squid</category>
         
@@ -128,8 +128,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&g
 
 </description>
         <pubDate>Fri, 26 Jul 2019 00:00:00 +0900</pubDate>
-        <link>https://eungggggg.github.io/2019/07/26/algo/</link>
-        <guid isPermaLink="true">https://eungggggg.github.io/2019/07/26/algo/</guid>
+        <link>http://localhost:4000/2019/07/26/algo/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/26/algo/</guid>
         
         <category>Squid</category>
         

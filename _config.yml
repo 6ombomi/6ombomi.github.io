@@ -1,25 +1,25 @@
 # Site/SEO settings
-email: eungggggg@gmail.com
+email: 6ombomi@gmail.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
 # google_analytics: 
 
-name: Eunji Jeong
-title: Portfolio
+name: Bomi Lee
+title: Bomi's Portfolio
 description: >
-  Eunji Jeong - a Product Designer's Portfolio
-url: https://eungggggg.github.io
-twitter_username: eungggggg
+  Bomi Lee - a UI/UX Designer's Portfolio
+url: https://6ombomi.github.io
+twitter_username: 6ombomi
 # default_img: /assets/images/seo.jpg
 social:
   # - name: twitter
   #   url: https://twitter.com/eungggggg
   - name: instagram
-    url: https://www.instagram.com/eungggggg/
+    url: https://www.instagram.com/6ombomi/
   - name: linkedin
-    url: https://www.linkedin.com/in/eungggggg/
+    url: https://www.linkedin.com/in/6ombomi/
   - name: github
-    url: https://github.com/eungggggg
+    url: https://github.com/6ombomi
   # - name: codepen
   #   url: https://codepen.io/eungggggg/
 
@@ -36,7 +36,7 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
 # Author settings
 author:
-  - name: Eunji Jeong
+  - name: Bomi Lee
     # bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
     # url: http://thomasvaeth.com
 

@@ -1,6 +1,7 @@
 /* 텍스트 설정 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
 html, body, h1, h2, h3, h4, h5, h6, #style-guide #markdown, .post-layout #markdown{
-	font-family: "Source Sans Pro","APPLE SD Gothic Neo",HelveticaNeue,Helvetica,"NanumGothic","맑은 고딕","Malgun Gothic",arial,sans-serif,"Source Sans Pro",sans-serif !important;
+	font-family: "Roboto", "sans-serif" !important;
 	line-height: 1.6;
 }
 
@@ -107,9 +108,9 @@ main{
 }
 
 .copyright{
-	text-align: right;
+	text-align: center;
 	color: #ced4da;
-	margin-top: -1.2rem;
+	margin-top: 1rem;
 	font-size: 0.9rem;
 }
 
