@@ -5,7 +5,7 @@ permalink: /:year/:month/:day/:title/
 # google_analytics: 
 
 name: Bomi Lee
-title: Bomi's Portfolio
+title: Portfolio
 description: >
   Bomi Lee - a UI/UX Designer's Portfolio
 url: https://6ombomi.github.io
@@ -13,15 +13,15 @@ twitter_username: 6ombomi
 # default_img: /assets/images/seo.jpg
 social:
   # - name: twitter
-  #   url: https://twitter.com/eungggggg
-  - name: instagram
-    url: https://www.instagram.com/6ombomi/
+  #   url: https://twitter.com/6ombomi
+  #- name: instagram
+  # url: https://www.instagram.com/6ombomi/
   - name: linkedin
     url: https://www.linkedin.com/in/6ombomi/
   - name: github
     url: https://github.com/6ombomi
   # - name: codepen
-  #   url: https://codepen.io/eungggggg/
+  #   url: https://codepen.io/6ombomi/
 
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg

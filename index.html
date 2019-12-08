@@ -1,33 +1,98 @@
 ---
 layout: default
 pagination:
-  enabled: true
+enabled: true
 ---
 <!-- The main content area -->
 
 <!-- 인트로 문구 추가 -->
-<div class="intro">
-  Crafting digital experiences that <br>
-  help user.
-</div> 
+<div class="content">
+  <div class="intro">
+    Hello :-)<br>
+    I’m Bomi Lee. <br>
+    A UI/UX Designer.<span class="ec ec-writing-hand"></span>
+    <button class="arrow01" style="user-select: auto;"><img src="/assets/images/arrow_down@2x.png" id="changer" onclick="/assets/images/arrow_up.png(this)">
+    </button>
+  
 
-<div class="posts">
-  <div class="grid-xlarge">
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
-
-      {% for post in site.posts %}
-        {% include post-card.html %}
-      {% endfor %}
-      
+    <div id=text01 style="display: none;">
+     You can contact me at <a href="/">6ombomi@gmail.com</a><span class="ec ec-mailbox-with-mail"></span>
+     <br>
+     <span class="behance"><a href="/">Behance</a></span>
+      <span class="behance"><a href="/">Dribbble</a></span>
+      <span class="behance"><a href="/">Brunch</a></span>
     </div>
   </div>
-
-  {% include pagination.html %}
+  
+  <div id="filter">
+    <div class="work-count">
+      <span class="total-numer">5</span>works now.
+    </div>
+    <li class="active">Total</li>
+    <li class="word-tag">UI/UX</li>
+    <li class="word-tag">Illustration</li>
+    <li class="word-tag">Prototyping</li>
+    <li class="word-tag">Motion Graphics</li>
+    <li class="word-tag">Blog</li>
+  </div>
 </div>
+<!-- 포스트영 -->
+  <div class="posts">
+    <div class="grid-xlarge">
+      <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
 
+        {% for post in site.posts %}
+          {% include post-card.html %}
+        {% endfor %}
+        
+      </div>
+    </div>
+
+    {% include pagination.html %}
+  </div>
+</div>
 <!-- jquery로 네비게이션에 현재 위치 표시 -->
-<!-- <script type="text/javascript">
+<script type="text/javascript">
   $( document ).ready(function() {
       $('.header__list li:first-child').addClass("active");
   });
-</script> -->
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.arrow01').on('click',function() {
+                $('#text01').toggle();
+        });
+    })
+</script>
+<script type="text/javascript">
+  $("#changer").click(function(){
+      imagePath = $("#changer").attr("src");
+      if(imagePath == "/assets/images/arrow_down@2x.png"){
+          $("#changer").attr("src", "/assets/images/arrow_up.png");
+
+      }else{
+          $("#changer").attr("src", "/assets/images/arrow_down@2x.png");
+      }
+  });
+</script>
+<!-- 토글이벤트 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('.arrow01').on('click',function() {
+                $('#text01').slideToggle("fast");
+        });
+    })
+</script>
+
+<script>
+    $(document).ready(function() {
+        $('.arrow02').on('click',function() {
+                $('#text02').slideToggle("fast");
+        });
+    })
+</script>
+-->

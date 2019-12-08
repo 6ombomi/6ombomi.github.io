@@ -2,7 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Bomi's Portfolio</title>
+<title>{% if page.title %}{{ page.title | escape }} | {{ site.title }}{% else %}{{ site.title | escape }}{% endif %}</title>
 <meta name="description" content="{{ site.description }}">
 
 <meta itemprop="name" content="{{ site.name }}">
@@ -32,9 +32,12 @@
 
 <!-- coustome.css 파일 임포트 -->
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | prepend: site.baseurl }}">
+<!-- 이모지 임포트 -->
+<link rel='stylesheet' href='https://unpkg.com/emoji.css/dist/emoji.min.css'>
 
 <!-- jquery 불러오기 -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script> 
 
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl }}">
 <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl }}">
@@ -49,4 +52,13 @@
     ga('send', 'pageview');
   </script>
 {% endif %}
+
+<!--jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+
+
+
+
 
