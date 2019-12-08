@@ -1,0 +1,32 @@
+---
+layout: default
+pagination:
+title: works
+---
+<!-- The main content area -->
+
+
+<!-- 포스트영역-->
+  <div class="posts">
+    <div class="grid-xlarge">
+      <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+
+        {% for post in site.posts %}
+          {% include post-card.html %}
+        {% endfor %}
+        
+      </div>
+    </div>
+
+    {% include pagination.html %}
+  </div>
+</div>
+
+<!-- jquery로 네비게이션에 현재 위치 표시 -->
+<script type="text/javascript">
+  $( document ).ready(function() {
+      $('.header__list li:nth-child(2)').addClass("active");
+  });
+</script>
+
+
